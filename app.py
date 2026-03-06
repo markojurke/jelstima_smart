@@ -7,10 +7,6 @@ st.set_page_config(
     page_icon="🏠", # You can use any emoji here like ⚡, 🔓, or 🏰
 )
 
-import streamlit as st
-
-# 1. Keep your page config at the top
-st.set_page_config(page_title="Jelstima Smart Gate", page_icon="🏠")
 
 # 2. Add this CSS block to hide the GitHub icon, Profile pic, and Footer
 hide_style = """
@@ -37,7 +33,7 @@ st.title("Main Gate Controller")
 # We will add a "Mock Mode" so you can see it work without the hardware.
 SHELLY_IP = "192.168.1.50" 
 
-st.set_page_config(page_title="Gate Remote", page_icon="🚪")
+
 
 # Modern Styling
 st.markdown("""
