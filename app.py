@@ -1,5 +1,11 @@
 import streamlit as st
 import requests
+import streamlit as st
+
+st.set_page_config(
+    page_title="Jelstima Smart Gate",
+    page_icon="🏠", # You can use any emoji here like ⚡, 🔓, or 🏰
+)
 
 # --- CONFIG ---
 # Since you're testing, this IP probably won't reach a real Shelly yet.
